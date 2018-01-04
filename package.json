@@ -1,7 +1,7 @@
 {
-  "name": "code-with-us-in-ng-2",
+  "name": "prof-angular2-app",
   "version": "1.0.0",
-  "description": "Pluralsight - Code with John Papa & Ward Bell in Angular 2",
+  "description": "Angular 2 app with test data",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",

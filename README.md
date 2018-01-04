@@ -1,16 +1,12 @@
+#Angular2 App
+This repo holds the complete source code for , "[Angular 2 App]
 
-
-This repo holds the complete source code for , "[Angular 2 App](https://app.pluralsight.com/library/courses/code-with-us-angular-quick-start)".
-
-The primary application is a harness that runs each section (AKA chapter) within a central window.
 Select a course section from the dropdown at the top and see that section's finished code running in the browser.
 
 Almost everything of interest is in the `app/` folder where you'll find the code for each section of the course (including exercises) in its own folder. The `AppComponent` is the harness shell and the `AppModule` registers each section in the harness.
 Each section folder is a standalone application that represents the end-state of the corresponding section in the course.
 
 The balance of this README comes straight from the Angular Quickstart (the course starting point).
-It covers how to install and run the application. It also covers running the tests.
-We didn't do much testing in this course but we hope that you'll be inspired to make testing part of your Angular development life.
 
 ## Install npm packages
 
@@ -36,10 +32,7 @@ We've captured many of the most useful commands in npm scripts defined in the `p
 * `npm start` - runs the compiler and a server at the same time, both in "watch mode".
 * `npm run tsc` - runs the TypeScript compiler once.
 * `npm run tsc:w` - runs the TypeScript compiler in watch mode; the process keeps running, awaiting changes to TypeScript files and re-compiling when it sees them.
-* `npm run lite` - runs the [lite-server](https://www.npmjs.com/package/lite-server), a light-weight, static file server, written and maintained by
-[John Papa](https://github.com/johnpapa) and
-[Christopher Martin](https://github.com/cgmartin)
-with excellent support for Angular apps that use routing.
+* `npm run lite` - runs the [lite-server]
 
 Here are the test related scripts:
 * `npm test` - compiles, runs and watches the karma unit tests
